@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aditi Kumrawat - UI/UX Designer & Product Manager Portfolio">
+    <meta name="theme-color" content="#faf8ff">
+    <title>Aditi Kumrawat - Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background animated blobs -->
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+        <div class="blob blob-4"></div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home" class="logo-link">
+                    <span class="logo-text">Aditi</span>
+                </a>
+            </div>
+            
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certifications" class="nav-link">Certifications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-text">✦ UI/UX Designer & Product Thinker</span>
+                </div>
+                
+                <h1 class="hero-title">Hi, I'm<br><span class="gradient-text">Aditi Kumrawat</span></h1>
+                
+                <p class="hero-subtitle">
+                    Designing intuitive and visually engaging digital experiences through creativity, strategy, and product thinking.
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View Projects</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                        </svg>
+                    </a>
+                    <a href="Resume.pdf" target="_blank" class="btn btn-secondary">
+                        <span>Resume</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="hero-socials">
+                    <a href="http://linkedin.com/in/aditi-kumrawat-508589298" target="_blank" class="social-link" title="LinkedIn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.475-2.236-1.986-2.236-1.081 0-1.722.731-2.004 1.438-.103.25-.129.599-.129.949v5.418h-3.554s.05-8.746 0-9.637h3.554v1.364c.429-.646 1.199-1.567 2.917-1.567 2.134 0 3.732 1.388 3.732 4.37v5.47zM5.337 8.855c-1.144 0-1.915-.758-1.915-1.7 0-.957.769-1.699 1.959-1.699 1.189 0 1.914.742 1.939 1.699 0 .942-.75 1.7-1.983 1.7zm1.582 11.597H3.635V9.242h3.284v11.21zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/Aditikumrawat-23" target="_blank" class="social-link" title="GitHub">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path>
+                        </svg>
+                    </a>
+                    <a href="mailto:aditikumrawat23@gmail.com" class="social-link" title="Email">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="aditi.png" alt="Aditi Kumrawat" class="profile-img">
+                <div class="image-glow"></div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm a motivated B.Tech Computer Science student passionate about creating beautiful, intuitive digital experiences that solve real problems. With a strong foundation in UI/UX design and product management, I combine creative thinking with strategic problem-solving.
+                    </p>
+
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <h3 class="stat-number">12+</h3>
+                            <p class="stat-label">Projects</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3 class="stat-number">5+</h3>
+                            <p class="stat-label">Certifications</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3 class="stat-number">3+</h3>
+                            <p class="stat-label">Years Learning</p>
+                        </div>
+                    </div>
+
+                    <div class="education-card">
+                        <h3>Education</h3>
+                        <p class="degree">B.Tech in Computer Science & Information Technology</p>
+                        <p class="university">Acropolis Institute of Technology & Research, Indore (RGPV)</p>
+                        <p class="duration">2023 – 2027</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-icon">🎨</div>
+                    <h3 class="category-title">UI/UX Design</h3>
+                    <div class="skills-list">
+                        <span class="skill-pill">✏️ Figma</span>
+                        <span class="skill-pill">📐 Wireframing</span>
+                        <span class="skill-pill">🎭 Prototyping</span>
+                        <span class="skill-pill">🔀 User Flows</span>
+                        <span class="skill-pill">📊 Visual Hierarchy</span>
+                        <span class="skill-pill">🔍 User Research</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-icon">💡</div>
+                    <h3 class="category-title">Product Management</h3>
+                    <div class="skills-list">
+                        <span class="skill-pill">🔄 Product Lifecycle</span>
+                        <span class="skill-pill">📝 User Stories</span>
+                        <span class="skill-pill">📋 Requirement Gathering</span>
+                        <span class="skill-pill">🧠 Product Thinking</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-icon">🛠️</div>
+                    <h3 class="category-title">Tools</h3>
+                    <div class="skills-list">
+                        <span class="skill-pill">✏️ Figma</span>
+                        <span class="skill-pill">✨ Framer</span>
+                        <span class="skill-pill">🎨 Canva</span>
+                        <span class="skill-pill">📊 Excel</span>
+                        <span class="skill-pill">📌 Notion</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-icon">⭐</div>
+                    <h3 class="category-title">Soft Skills</h3>
+                    <div class="skills-list">
+                        <span class="skill-pill">💬 Communication</span>
+                        <span class="skill-pill">👥 Team Collaboration</span>
+                        <span class="skill-pill">🎯 Adaptability</span>
+                        <span class="skill-pill">🚀 Problem Solving</span>
+                        <span class="skill-pill">👁️ Attention to Detail</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="projects-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <button class="scroll-btn" id="scrollBtn" title="Scroll to see more projects">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 18l6-6-6-6"></path>
+                    </svg>
+                    <span>Scroll</span>
+                </button>
+            </div>
+
+            <div class="projects-container" id="projectsContainer">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="candle.png" alt="Candle Branding">
+                        <div class="project-overlay">
+                            <a href="https://github.com/Aditikumrawat-23/Aditikumrawat-23-AUREL-Brand-Identity.git" target="_blank" class="project-link">
+                                View Project
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Branding</span>
+                        <h3 class="project-title">Candle Branding</h3>
+                        <p class="project-description">
+                            Luxury candle brand identity with elegant packaging and premium aesthetics.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="railflow.png" alt="RailFlow">
+                        <div class="project-overlay">
+                            <a href="https://github.com/Aditikumrawat-23/RailFlow-UX-Case-Study.git" target="_blank" class="project-link">
+                                View Project
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">UX Case Study</span>
+                        <h3 class="project-title">RailFlow</h3>
+                        <p class="project-description">
+                            Smart train booking experience with simplified navigation and modern UX.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="job tracker.png" alt="JobTracker">
+                        <div class="project-overlay">
+                            <a href="https://github.com/Aditikumrawat-23/job-tracker-app.git" target="_blank" class="project-link">
+                                View Project
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Mobile App</span>
+                        <h3 class="project-title">JobTracker</h3>
+                        <p class="project-description">
+                            Track internships and job applications efficiently with modern design.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="food.png" alt="Food Delivery">
+                        <div class="project-overlay">
+                            <a href="https://github.com/Aditikumrawat-23/food-delivery-ui-concept.git" target="_blank" class="project-link">
+                                View Project
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">UI Design</span>
+                        <h3 class="project-title">Food Delivery UI</h3>
+                        <p class="project-description">
+                            Modern food ordering app with intuitive navigation and clean design.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-footer">
+                <p class="projects-hint">← Scroll horizontally to see all projects →</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications & Achievements</h2>
+
+            <div class="certifications-grid">
+                <!-- Certification 1 -->
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 15l-8.5 4.5 1.6-9.3L.5 6.5l9.3-1.3L12 0l3.2 5.2 9.3 1.3-6.6 3.7 1.6 9.3z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="cert-title">Product Management 101</h3>
+                    <p class="cert-issuer">SimpliLearn</p>
+                    <a href="https://certificates.simplicdn.net/share/9977208_10270050_1773850063989.pdf" target="_blank" class="cert-link">
+                        View Certificate
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Certification 2 -->
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 15l-8.5 4.5 1.6-9.3L.5 6.5l9.3-1.3L12 0l3.2 5.2 9.3 1.3-6.6 3.7 1.6 9.3z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="cert-title">Commercial Project Manager</h3>
+                    <p class="cert-issuer">Siemens – Forage</p>
+                    <a href="https://www.theforage.com/completion-certificates/YtWaumzWHmKiqP63y/6kHAwSGXGCZuiFXKb_YtWaumzWHmKiqP63y_68fdceee407ba3d5c84952a3_1765901168625_completion_certificate.pdf" target="_blank" class="cert-link">
+                        View Certificate
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Certification 3 -->
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 15l-8.5 4.5 1.6-9.3L.5 6.5l9.3-1.3L12 0l3.2 5.2 9.3 1.3-6.6 3.7 1.6 9.3z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="cert-title">Venture & Business Builds</h3>
+                    <p class="cert-issuer">Forage</p>
+                    <a href="https://www.theforage.com/completion-certificates/SKZxezskWgmFjRvj9/oHiTxcXqcquvTTofY_SKZxezskWgmFjRvj9_68fdceee407ba3d5c84952a3_1765110368852_completion_certificate.pdf" target="_blank" class="cert-link">
+                        View Certificate
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Certification 4 -->
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 15l-8.5 4.5 1.6-9.3L.5 6.5l9.3-1.3L12 0l3.2 5.2 9.3 1.3-6.6 3.7 1.6 9.3z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="cert-title">Data Analytics Job Simulation</h3>
+                    <p class="cert-issuer">Deloitte – Forage</p>
+                    <a href="certificate.pdf" target="_blank" class="cert-link">
+                        View Certificate
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-card">
+                <h2 class="contact-title">Let's Build Something Meaningful Together ✨</h2>
+                <p class="contact-subtitle">
+                    Feel free to connect for collaborations, internships, UI/UX opportunities, or creative projects.
+                </p>
+
+                <div class="contact-buttons">
+                    <a href="mailto:aditikumrawat23@gmail.com" class="contact-btn contact-btn-primary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <span>Send Email</span>
+                    </a>
+                    <a href="http://linkedin.com/in/aditi-kumrawat-508589298" target="_blank" class="contact-btn contact-btn-secondary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.475-2.236-1.986-2.236-1.081 0-1.722.731-2.004 1.438-.103.25-.129.599-.129.949v5.418h-3.554s.05-8.746 0-9.637h3.554v1.364c.429-.646 1.199-1.567 2.917-1.567 2.134 0 3.732 1.388 3.732 4.37v5.47zM5.337 8.855c-1.144 0-1.915-.758-1.915-1.7 0-.957.769-1.699 1.959-1.699 1.189 0 1.914.742 1.939 1.699 0 .942-.75 1.7-1.983 1.7zm1.582 11.597H3.635V9.242h3.284v11.21zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                        </svg>
+                        <span>Visit LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/Aditikumrawat-23" target="_blank" class="contact-btn contact-btn-secondary">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path>
+                        </svg>
+                        <span>Visit GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Designed & Developed with <span class="heart">💜</span> by Aditi Kumrawat</p>
+            <p class="footer-year">© 2026. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
